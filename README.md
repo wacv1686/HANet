@@ -59,3 +59,27 @@ python train.py --cfg configs/config_jhmdb_simplebaseline_2D.yaml --dataset_name
 | Dataset   | Estimator      | PCK 0.05 (Input/Output):arrow_up: | PCK 0.1 (Input/Output):arrow_up: | PCK 0.2 (Input/Output):arrow_up: | Checkpoint                                                                                           |
 | --------- | -------------- | --------------------------------- | -------------------------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | Sub-JHMDB | simplebaseline | 57.3%/88.7%                       | 81.6%/97.5%                      | 93.9%/99.5%                      | [Google Drive](https://drive.google.com/drive/folders/1uLpuRcRbbVqmyndCnuuaW7qRACJaqMX1?usp=sharing) |
+
+## Visualization
+
+We prepare all visualization codes as soon as possible.
+
+### 2D Pose
+
+Sub-JHMDB SimpleBaseline, DeciWatch, HANet
+
+![visualize of Sub-JHMDB 2D SimpleBaseline](./docs/assets/jhmdb.gif)
+
+### 3D Pose
+
+AIST++ SPIN
+
+![visualize of AIST++ 3D SPIN](./docs/assets/aist_3D.gif)
+
+### SMPL
+
+3DPW PARE
+
+AIST++ SPIN
+
+![visualize of AIST++ SMPL SPIN](./docs/assets/aist_smpl.gif)
