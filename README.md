@@ -4,7 +4,7 @@
 
 ## Contributions
 
-- We propose a novel approach HANet that utilizes thekeypoints’ kinematic features, following the laws ofphysics. Our method addresses temporal issues withthese proposed features, effectively mitigates the jitter,and becomes robust to occlusion.
+- We propose a novel approach HANet that utilizes the keypoints’ kinematic features, following the laws of physics. Our method addresses temporal issues with these proposed features, effectively mitigates the jitter, and becomes robust to occlusion.
 
 - We propose a hierarchical transformer encoder that incorporates multi-scale spatio-temporal attention. We use multi-scale feature maps, i.e., leverage all layers’ attention maps, and improve performance on benchmarks that provide sparse supervision.
 
