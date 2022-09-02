@@ -50,12 +50,6 @@ Note that the training and testing datasets should be downloaded and prepared be
 Run the commands below to start training:
 
 ```shell script
-python train.py --cfg [config file] --dataset_name [dataset name] --estimator [backbone estimator you use] --body_representation [smpl/3D/2D]
-```
-
-For example, you can train on **2D position representation** of the **jhmdb dataset** using the **backbone estimator simplebaseline** (sampling ratio=10%) by:
-
-```shell script
 python train.py --cfg configs/config_jhmdb_simplebaseline_2D.yaml --dataset_name jhmdb --estimator simplebaseline --body_representation 2D
 ```
 
@@ -85,10 +79,10 @@ Visualize comparison on AIST++
 
 ### 3D Body Mesh Recovery
 
-Visualize comparison on 3DPW PARE
+Visualize comparison on 3DPW
 
 ![visualize of AIST++ SMPL SPIN](./docs/assets/pw3d_smpl.gif)
 
-Visualize comparison on AIST++ SPIN
+Visualize comparison on AIST++
 
 ![visualize of AIST++ SMPL SPIN](./docs/assets/aist_smpl.gif)
