@@ -1,5 +1,7 @@
 # HANet
 
+![The framework of HANet](./docs/assets/HANet.png)
+
 ## Contributions
 
 - We propose a novel approach HANet that utilizes thekeypoints’ kinematic features, following the laws ofphysics. Our method addresses temporal issues withthese proposed features, effectively mitigates the jitter,and becomes robust to occlusion.
@@ -73,22 +75,22 @@ We prepare all visualization codes as soon as possible.
 
 ### 2D Pose
 
-Sub-JHMDB SimpleBaseline, DeciWatch, HANet
+Visualize comparison on Sub-JHMDB
 
 ![visualize of Sub-JHMDB 2D SimpleBaseline](./docs/assets/jhmdb.gif)
 
 ### 3D Pose
 
-AIST++ SPIN
+Visualize comparison on AIST++
 
 ![visualize of AIST++ 3D SPIN](./docs/assets/aist_3D.gif)
 
-### SMPL
+### 3D Body Mesh Recovery
 
-3DPW PARE
+Visualize comparison on 3DPW PARE
 
 ![visualize of AIST++ SMPL SPIN](./docs/assets/pw3d_smpl.gif)
 
-AIST++ SPIN
+Visualize comparison on AIST++ SPIN
 
 ![visualize of AIST++ SMPL SPIN](./docs/assets/aist_smpl.gif)
