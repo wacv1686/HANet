@@ -16,8 +16,6 @@
 
 ### Environment Requirement
 
-HANet has been implemented and tested on Pytorch 1.10.1 with python = 3.6. It supports both GPU and CPU inference.
-
 Clone the repo:
 
 ```bash
