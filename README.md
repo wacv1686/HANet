@@ -80,6 +80,8 @@ AIST++ SPIN
 
 3DPW PARE
 
+![visualize of AIST++ SMPL SPIN](./docs/assets/pw3d_smpl.gif)
+
 AIST++ SPIN
 
 ![visualize of AIST++ SMPL SPIN](./docs/assets/aist_smpl.gif)
