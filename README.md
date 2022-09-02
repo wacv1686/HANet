@@ -22,7 +22,7 @@ Clone the repo:
 git clone https://github.com/wacv1686/HANet.git
 ```
 
-We recommend you install the requirements using `conda`:
+Install the HANet requirements using `conda`:
 
 ```bash
 # conda
@@ -45,7 +45,7 @@ Valid data includes:
 
 ### Training
 
-Note that the training and testing datasets should be downloaded and prepared before training.
+Note that datasets should be downloaded and prepared before training.
 
 Run the commands below to start training:
 
