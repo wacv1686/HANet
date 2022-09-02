@@ -21,6 +21,7 @@ We recommend you install the requirements using `conda`:
 ```bash
 # conda
 conda create env --name HANet python=3.6
+conda activate HANet
 pip install -r requirements.txt
 ```
 
