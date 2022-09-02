@@ -37,8 +37,6 @@ We prepare all the datasets as soon as possible. Sub-JHMDB data used in our expe
 
 [Google Drive](https://drive.google.com/drive/folders/1uLpuRcRbbVqmyndCnuuaW7qRACJaqMX1?usp=sharing)
 
-Valid data includes:
-
 | Dataset                                  | Pose Estimator                                                               | 3D Pose | 2D Pose | SMPL |
 | ---------------------------------------- | ---------------------------------------------------------------------------- | ------- | ------- | ---- |
 | [Sub-JHMDB](http://jhmdb.is.tue.mpg.de/) | [SimpleBaseline](https://github.com/microsoft/human-pose-estimation.pytorch) |         | ✔       |      |
@@ -47,7 +45,7 @@ Valid data includes:
 
 Note that datasets should be downloaded and prepared before training.
 
-Run the commands below to start training:
+Run the commands below to start training on Sub-JHMDB:
 
 ```shell script
 python train.py --cfg configs/config_jhmdb_simplebaseline_2D.yaml --dataset_name jhmdb --estimator simplebaseline --body_representation 2D
